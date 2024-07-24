@@ -76,6 +76,9 @@ section {
   display: table;
   clear: both;
 }
+<section id="contact" class="clearfix">
+  <!-- Contact content -->
+</section>
 
 /* HAMBURGER MENU */
 
