@@ -451,6 +451,9 @@ section {
 #articles, #articles * {
   text-align: left;
 }
+#articles .title {
+  text-align: center;
+}
 
 article {
   display: flex;
