@@ -440,13 +440,16 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: left;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
   justify-content: stretch;
   padding-left: 50px;
   
+}
+#articles, #articles * {
+  text-align: left;
 }
 
 article {
