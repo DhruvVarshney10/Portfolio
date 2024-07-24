@@ -488,6 +488,69 @@ article .icon {
 }
 
 /* CONTACT */
+/* Ensure proper spacing between sections */
+section {
+  margin-bottom: 50px; /* Adjust this value as needed */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Additional styling for the contact section */
+#contact {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
+
+#contact .section__text__p1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#contact .title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#contact .contact-info-container {
+  font-size: 16px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer .nav-links-container {
+  text-align: center;
+}
+
+footer .nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+footer .nav-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer .nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .nav-links a:hover {
+  text-decoration: underline;
+}
 
 #contact {
   display: flex;
