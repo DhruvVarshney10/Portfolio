@@ -65,6 +65,17 @@ a:hover {
 .logo:hover {
   cursor: default;
 }
+/* Ensure proper spacing between sections */
+section {
+  margin-bottom: 50px; /* Adjust this value as needed */
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* HAMBURGER MENU */
 
