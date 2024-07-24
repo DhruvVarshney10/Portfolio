@@ -455,7 +455,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: center;
+  justify-content: left;
   gap: 0.5rem;
 }
 
