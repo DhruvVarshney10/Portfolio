@@ -448,9 +448,7 @@ section {
   padding-left: 50px;
   
 }
-#articles, #articles * {
-  text-align: left;
-}
+
 #articles .title {
   text-align: center;
 }
